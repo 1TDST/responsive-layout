@@ -17,8 +17,6 @@ h1, h2, h3{
   margin: 20px 10px;
 }
 
-.box-1{
-  border: solid 1px rgba(230, 30, 91);
-  width: 50vw;
-  height: 50vh;
+img{
+  max-width: 100%;
 }

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.container{
+  font: 16px/1.4 sans-serif;
+  max-width: 1200px;
+  margin: auto;
+  background-color: blue;
+}
+
+@media screen and (min-width: 500px){
+
+ .container{
+   font-size: calc(16px + (8/1200) * 100 * 1vw);
+   background-color: #b7df80
+ }
+
+}
