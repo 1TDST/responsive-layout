@@ -14,3 +14,10 @@ body{
 h1, h2, h3{
   margin: 20px 10px;
 }
+
+
+.box-1{
+  border: solid 4px #0000ff;
+  width: 50vw;
+  height: 50vh;
+}

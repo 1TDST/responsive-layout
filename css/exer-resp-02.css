@@ -1,0 +1,17 @@
+
+
+.container{
+  font:16px/1.4 sans-serif;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: #e2d8e6;
+}
+
+@media screen and (min-width: 500px) {
+  .container{
+    font-size: calc(16px + (8/1200) * 100 * 1vw);
+    background-color: #b7df80;
+  }
+
+}
